@@ -124,14 +124,19 @@ p {
 /*============ About and Contact */
 .sidebar-wrapper .contact-list .fa {
   margin-right: 5px;
-  font-size: 18px;
+  font-size: 17px;
   vertical-align: middle;
+  width: 18px;
+  text-align: center;
 }
 .sidebar-wrapper .contact-list li {
   margin-bottom: 15px;
 }
 .sidebar-wrapper .contact-list li:last-child {
   margin-bottom: 0;
+}
+.sidebar-wrapper .contact-list .birthdate .fa {
+  font-size: 15px;
 }
 .sidebar-wrapper .contact-list .email .fa {
   font-size: 14px;
@@ -312,6 +317,13 @@ p {
   line-height: 1.6;
   color: #545E6C;
   font-size: 13px;
+}
+
+
+@media screen and (min-width: 1px) {
+    .mobile {
+      display: none !important;
+    }
 }
 
 /* Extra small devices (phones, less than 768px) */
