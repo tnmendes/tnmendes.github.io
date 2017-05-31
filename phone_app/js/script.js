@@ -73,8 +73,8 @@ jQuery(document).ready(function ($) {
     $('input, textarea').placeholder();
 
     $("#shareIconsCountInside").jsSocials({
-        url: "http://google.com",
-        text: "Google Search Page",
+        url: "https://tnmendes.github.io/phone_app",
+        text: "Voless VOIP Callkit App",
         showLabel: false,
         showCount: "inside",
         shares: ["twitter", "facebook", "googleplus", "pinterest"]
