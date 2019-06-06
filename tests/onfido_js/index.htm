@@ -36,19 +36,8 @@
                             government_letter: true // non-GBR only
                         }
                     },
-                    {
-                        type: 'face',
-                        options: {
-                            requestedVariant: 'photo',
-                            uploadFallback: false //upload one photo
-                        }
-                    },
-                    {
-                        type: 'complete',
-                        options: {
-                            message: 'Thank You!!!!',
-                            submessage: 'Your ID has been submitted for verification. Please rest assured that your booking status remains confirmed unless verification is unsuccessful - in which case, we will be in touch.'
-                        }
+                    'face',
+                    'complete'
                     }
                 ]
             });
