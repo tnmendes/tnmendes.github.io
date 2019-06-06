@@ -5,21 +5,6 @@
     <title>Onfido</title>
     <link rel="stylesheet" href="style.css">
     <script src='onfido.min.js'></script>
-    <!--<script>-->
-        <!--Onfido.init({-->
-            <!--// the JWT token that you generated earlier on-->
-            <!--token: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwYXlsb2FkIjoiQkFtSFNsWDd1ZGZKZnhVYkJsdm9hRXlLK3pnSWRadVYyRklOc0ZIN0ZtRlpJeGM1aTZqNFpTYjJRNzFqXG5yR0UvU1ZUQ2duQ09CT3JjRk03OTZKQkNXS2tzRStSa0o5MEVsUlp0QTd2R2x2L1orVUg1d1EyUnQ0RFZcbkRqS1B1cFY1N0dpUHFUeTJRMHc2NTZ5SXFaNHZRUT09XG4iLCJ1dWlkIjoiTlJ5NmpNWTNXVlkiLCJleHAiOjE1NDQ2OTU3MDF9.NK38Pw5Pkhh-zW7TgxBmSFopZ893lprxJDgWht5Rym4',-->
-            <!--// id of the element you want to mount the component on-->
-            <!--containerId: 'onfido-mount',-->
-            <!--onComplete: function(data) {-->
-                <!--console.log("everything is complete")-->
-                <!--// You can now trigger your backend to start a new check-->
-                <!--// `data.face.variant` will return the variant used for the face step-->
-                <!--// this can be used to perform a facial similarity check on the applicant-->
-            <!--}-->
-        <!--})-->
-    <!--</script>-->
-
     <script>
         let onfido = {};
 
@@ -37,17 +22,11 @@
                     console.log("everything is complete")
                 },
                 steps: [
-                    {
-                        type:'welcome',
-                        options:{
-                            title:'Assure',
-                            descriptions: ['Personalized label 1', 'Personalized label 2']
-                        }
-                    },
+                    'welcome',
                     {
                         type: 'document',
                         options: {
-                            passport: true,
+                            passport: false,
                             driving_licence: false,
                             national_identity_card: true,
                             bank_building_society_statement: true,
