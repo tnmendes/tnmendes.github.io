@@ -39,7 +39,17 @@
                 },
                 steps: [
                     'welcome',
-                    'document',
+                    {
+        type: 'document',
+        options: {
+            forceCrossDevice: true,
+            documentTypes: {
+                passport: true,
+                driving_licence: false,
+                national_identity_card: true
+            }
+        }
+    },
                     'face',
                     'complete'
                 ]
