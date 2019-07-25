@@ -63,6 +63,10 @@ html,
 	background-color: pink;
 }
 
+#videoid-overlay {
+	color: gold;
+	background-color: cyan;
+}
 /*
 
 At first almost everything can be customized (backgrounds, fonts, sizes, colors, animations ... etc)
