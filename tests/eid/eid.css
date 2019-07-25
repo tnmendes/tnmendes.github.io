@@ -21,3 +21,159 @@ html,
 	width: 24px;
 	height: 24px;
 }
+
+#videoid-legend {
+	background-color: red;
+}
+
+
+
+/*
+
+At first almost everything can be customized (backgrounds, fonts, sizes, colors, animations ... etc)
+
+We add our styles of our products immediately before the styles of the client so if you want to change it, for example, the color of the roi, just put on your style sheet.
+
+#mark-roi{
+border: 3px solid red;
+}
+
+For example
+1. You add our service in your Web site.
+2. You add your own style sheet the elements you want to change.
+3. Our library interpret those styles as priority and overwrite ours.
+
+Custom animation list:
+
+@keyframes highlightRoi
+@keyframes scaleAnim
+@keyframes perspective-anim
+@keyframes notification
+@keyframes stroke
+@keyframes scale
+@keyframes fill
+@keyframes scanning
+@keyframes rotation
+@keyframes flash
+@keyframes opacity
+@keyframes dash
+@keyframes dash-check
+@keyframes loading
+@keyframes loaded
+@keyframes appear-from-bottom
+
+Custom element list:
+#eid-video
+#videoid-overlay
+#videoid-container
+#eid-agent-video
+#eid-agent-video video
+#videoid-overlay .spinner
+#videoid-overlay .spinner span
+#videoid-overlay .spinner span:before
+#videoid-overlay .spinner.active
+#videoid-legend
+#videoid-legend-step
+#videoid-legend-step>div
+#videoid-contextualhelp-title
+#videoid-legend-step>div p
+#videoid-legend-step>div div.contain
+#videoid-containerNotification
+#videoid-contextualhelp-video
+#videoid-legend-step>div div.contain .controls
+#videoid-legend-step>div div.contain.playing .controls
+#videoid-contextualhelp-button
+#videoid-legend a
+#videoid-legend a:hover
+#videoid-legend a#logo-eid
+#videoid-legend a#volume
+#videoid-legend a#volume.active
+#videoid-legend a#help
+#videoid-legend a.active
+#videoid-legend.open
+#videoid-legend-step.open
+#videoid-legend-step.open>div h3
+#videoid-legend-step.open>div p
+#videoid-legend-step.open>div>div
+#videoid-legend-step.open>div button
+#videoid-legend.open #logo-eid
+#videoid-legend.open #volume
+#videoid-legend.open #volume.active
+#videoid-container #video-loading
+#videoid-container #video-loading p
+#videoid-container #video-loading button
+#videoid-container #video-loading #video-instructions
+#videoid-container #video-loading #video-instructions img
+#videoid-container #video-loading #video-instructions h3
+#videoid-container #video-loading #video-instructions ul
+#videoid-container #video-loading #video-instructions ul li
+#videoid-container #video-loading #video-instructions ul li span
+#videoid-container #video-loading.hide
+#videoid-container #video-loading #video-instructions ul li:nth-child(1)
+#videoid-container #video-loading #video-instructions ul li:nth-child(2)
+#videoid-container #video-loading #video-instructions ul li:nth-child(3)
+#videoid-container #video-loading #video-instructions ul li:nth-child(4)
+#videoid-container #video-loading #videoid-progress-bar
+#videoid-container #video-loading #videoid-progress-bar:after
+#videoid-container #video-loading.loaded p
+#videoid-container #video-loading.loaded button
+#videoid-container #video-loading.loaded #videoid-progress-bar
+#videoid-container #video-loading.loaded #videoid-progress-bar:after
+#videoid-detection
+#videoid-detection #frame-Scan
+#videoid-detection #frame-Scan.hide
+#videoid-mark-roi
+#videoid-mark-roi.hologram
+#videoid-container-text-notification
+.videoid-notification,.videoid-notification
+.videoid-notification.show,.videoid-notification.show,#videoid-container-text-notification.show
+.videoid-notification.show.warning
+.videoid-notification.show.success,.videoid-notification.show.success
+#videoid-mark-roi #animation-scanned
+#videoid-mark-roi #animation-scanned div
+#videoid-mark-roi #animation-scanned div img
+#videoid-mark-roi #animation-scanned #phase-check
+#videoid-mark-roi #animation-scanned .checkmark__circle
+#videoid-mark-roi #animation-scanned .checkmark
+#videoid-mark-roi #animation-scanned .checkmark__check
+#videoid-mark-roi #animation-scanned.hide
+#videoid-mark-roi #animation-scanned:not(.hide)
+#videoid-mark-roi #animation-scanned:not(.hide) div
+#videoid-mark-roi #animation-scanned.flash
+#videoid-mark-roi .spinner
+#videoid-mark-roi.color
+#videoid-mark-roi.color .spinner
+#videoid-mark-roi.face
+#videoid-mark-roi.top-right
+#videoid-mark-roi.bottom-left
+#videoid-mark-roi.bottom-right
+#videoid-detection svg#roi-svg
+#videoid-detection svg#roi-svg polygon
+#videoid-detection svg#rectangle
+#videoid-detection svg#rectangle line
+#videoid-detection.flash
+#videoid-container #document-scanned
+#videoid-container #document-scanned #frame
+#videoid-container #document-scanned.hide
+#video-error
+#video-error h2
+#video-error p
+#video-error button
+#videoid-container.loading #video-loading
+/* #videoid-container.loading #videoid-detection
+#videoid-legend-step>div div.contain
+.videoid-notification,.videoid-notification
+#videoid-overlay .spinner
+#videoid-overlay .spinner.active
+#videoid-legend-step>div div.contain
+#videoid-container #video-loading #video-instructions ul
+#videoid-container #video-loading #video-instructions ul li
+#videoid-container #video-loading #video-instructions ul li span
+.videoid-notification , .videoid-notification
+#videoid-mark-roi #animation-scanned div img
+svg#phase-check .path
+svg#phase-check .path.circle
+svg#phase-check .path.line
+svg#phase-check .path.check
+
+*\
