@@ -27,6 +27,7 @@ html,
 	color: green;
 }
 
+/*
 #videoid-legend,
 #videoid-legend-step,
 #videoid-legend-step>div,
@@ -56,17 +57,24 @@ html,
 #videoid-legend.open #volume.active {
 	color: red;
 	background-color: blue;
-}
+}*/
 
+/*
 #eid-video {
 	color: orange;
 	background-color: pink;
-}
+}*/
 
 #videoid-overlay {
-	color: gold;
+	color: orange;
 	background-color: cyan;
 }
+
+
+
+
+
+
 /*
 
 At first almost everything can be customized (backgrounds, fonts, sizes, colors, animations ... etc)
