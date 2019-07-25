@@ -27,8 +27,11 @@ html,
 
 #videoid-legend.open
 #videoid-legend-step.open {
-	background-color: red;
+	color: red;
+	background-color: blue;
 }
+
+
 /*
 
 At first almost everything can be customized (backgrounds, fonts, sizes, colors, animations ... etc)
