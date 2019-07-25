@@ -23,10 +23,12 @@ html,
 }
 
 
-#videoid-legend-step>div {
+
+
+#videoid-legend.open
+#videoid-legend-step.open {
 	background-color: red;
 }
-
 /*
 
 At first almost everything can be customized (backgrounds, fonts, sizes, colors, animations ... etc)
