@@ -22,7 +22,10 @@ html,
 	height: 24px;
 }
 
+* {
 
+	color: green;
+}
 
 
 #videoid-legend.open
