@@ -27,9 +27,14 @@ html,
 	color: green;
 }
 
-
-#videoid-legend.open
-#videoid-legend-step.open {
+#videoid-legend-step.open
+#videoid-legend-step.open>div h3
+#videoid-legend-step.open>div p
+#videoid-legend-step.open>div>div
+#videoid-legend-step.open>div button
+#videoid-legend.open #logo-eid
+#videoid-legend.open #volume
+#videoid-legend.open #volume.active {
 	color: red;
 	background-color: blue;
 }
