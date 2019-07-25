@@ -22,14 +22,10 @@ html,
 	height: 24px;
 }
 
-#videoid-legend {
+
+#videoid-legend-step>div {
 	background-color: red;
 }
-
-#videoid-legend-step {
-	background-color: red;
-}
-
 
 /*
 
