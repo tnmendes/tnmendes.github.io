@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1,minimal-ui" name="viewport">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+            <link rel="stylesheet" type="text/css" href="css/eid/eid.css">
+</head>
+<body>
+<div id="close">
+    <img src="images/close.png" alt="Close">
+</div>
+<div id="video"></div>    <div>
+    <form id="redirect" action="redirect" method="post">
+        <input type="hidden" id="session" name="session"/>
+    </form>
+</div>
+<script src="https://etrust-sandbox.electronicid.eu/v2/js/videoid.js"></script>
+<script>
+    let videoId = EID.videoId('#video', {lang: "en"});
+    videoId.turnOn();
+    videoId.start({authorization: "wtwYrB97sHA8Ppf0tcOa6JKOwSX3KdpSVHGEuCSs8Ix9BjViyDwh6BlYkpu9i2VRxlVeSGdTQMSZuVLVezLjVGunolDBVW3iRdqQgcS8Ny4=", idType: "147"});
+    videoId.on("completed", function () {
+        videoId.turnOff();
+        document.getElementById('session').value = sessionStorage.getItem('accessToken');
+        document.getElementById('redirect').submit();
+    });
+    videoId.on("failed", function (error) {
+        alert("VideoId Failed");
+    });
+    document.getElementById('close').onclick = function() {
+        videoId.turnOff();
+        location.href = 'https://labs.signicat.com/assure-test-server/assure/return?provider=eid&dossierId=493260d4-a056-4819-bb3c-e08508c7bbd8&processId=8ab976e7-5878-4294-b252-d0a5c015ec34&status=cancel';
+    };
+</script>
+</body>
+</html>
