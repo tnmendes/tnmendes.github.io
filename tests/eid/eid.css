@@ -66,8 +66,8 @@ html,
 }*/
 
 #videoid-contextualhelp-video {
-	color: orange;
-	background-color: red;
+	color: orange !important;
+	background-color: red !important;
 }
 
 
