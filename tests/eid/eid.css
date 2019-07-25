@@ -1,1 +1,23 @@
-body, html, #video {    margin: 0;    padding: 0;}#video {    height: 100vh;}#close {    position: absolute;    z-index: 999;    top: 30px;    right: 30px;    cursor: pointer;}#close > img {    width: 24px;    height: 24px;}
+body,
+html,
+#video {
+	margin: 0;
+	padding: 0;
+}
+
+#video {
+	height: 100vh;
+}
+
+#close {
+	position: absolute;
+	z-index: 999;
+	top: 30px;
+	right: 30px;
+	cursor: pointer;
+}
+
+#close>img {
+	width: 24px;
+	height: 24px;
+}
