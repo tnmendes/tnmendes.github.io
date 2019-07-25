@@ -27,32 +27,32 @@ html,
 	color: green;
 }
 
-#videoid-legend
-#videoid-legend-step
-#videoid-legend-step>div
-#videoid-contextualhelp-title
-#videoid-legend-step>div p
-#videoid-legend-step>div div.contain
-#videoid-containerNotification
-#videoid-contextualhelp-video
-#videoid-legend-step>div div.contain .controls
-#videoid-legend-step>div div.contain.playing .controls
-#videoid-contextualhelp-button
-#videoid-legend a
-#videoid-legend a:hover
-#videoid-legend a#logo-eid
-#videoid-legend a#volume
-#videoid-legend a#volume.active
-#videoid-legend a#help
-#videoid-legend a.active
-#videoid-legend.open
-#videoid-legend-step.open
-#videoid-legend-step.open>div h3
-#videoid-legend-step.open>div p
-#videoid-legend-step.open>div>div
-#videoid-legend-step.open>div button
-#videoid-legend.open #logo-eid
-#videoid-legend.open #volume
+#videoid-legend,
+#videoid-legend-step,
+#videoid-legend-step>div,
+#videoid-contextualhelp-title,
+#videoid-legend-step>div p,
+#videoid-legend-step>div div.contain,
+#videoid-containerNotification,
+#videoid-contextualhelp-video,
+#videoid-legend-step>div div.contain .controls,
+#videoid-legend-step>div div.contain.playing .controls,
+#videoid-contextualhelp-button,
+#videoid-legend a,
+#videoid-legend a:hover,
+#videoid-legend a#logo-eid,
+#videoid-legend a#volume,
+#videoid-legend a#volume.active,
+#videoid-legend a#help,
+#videoid-legend a.active,
+#videoid-legend.open,
+#videoid-legend-step.open,
+#videoid-legend-step.open>div h3,
+#videoid-legend-step.open>div p,
+#videoid-legend-step.open>div>div,
+#videoid-legend-step.open>div button,
+#videoid-legend.open #logo-eid,
+#videoid-legend.open #volume,
 #videoid-legend.open #volume.active {
 	color: red;
 	background-color: blue;
