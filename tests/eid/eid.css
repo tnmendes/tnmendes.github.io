@@ -45,13 +45,15 @@ html,
 	border-width: 20px;
 }
 
+
+
+
 */
 
 
-
 #videoid-mark-roi .spinner {
-	color: purple;
-	border-color: orange;
+	width: 200%;
+ 	height: 200%;
 }
 
 
