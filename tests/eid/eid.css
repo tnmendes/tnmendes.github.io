@@ -41,10 +41,12 @@ html,
 }*/
 
 
-#videoid-mark-roi.color {
+
+#videoid-mark-roi #animation-scanned {
 	color: orange;
-	border-color: red;
-	border-width: 15px;
+	background-color: orange;
+	border-color: orange;
+	border-width: 20px;
 }
 
 
@@ -57,10 +59,6 @@ html,
 
 
 
-#videoid-mark-roi #animation-scanned {
-	color: orange;
-	background-color: red;
-}
 
 
 
