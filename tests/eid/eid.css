@@ -22,10 +22,12 @@ html,
 	height: 24px;
 }
 
+/*
 * {
 
 	color: green;
-}
+}*/
+
 
 /*
 #videoid-legend,
@@ -65,9 +67,9 @@ html,
 	background-color: pink;
 }*/
 
-#videoid-contextualhelp-video {
-	color: orange !important;
-	background-color: red !important;
+#videoid-legend-step {
+	color: orange;
+	background-color: red;
 }
 
 
