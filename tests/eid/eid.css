@@ -38,33 +38,26 @@ html,
 #videoid-legend-step {
 	color: orange;
 	background-color: red;
-}*/
-
-
-
+}
 #videoid-mark-roi #animation-scanned {
 	color: purple;
 	border-color: orange;
 	border-width: 20px;
 }
 
+*/
 
 
-/*
-#videoid-mark-roi.face {
-	color: orange;
-	background-color: red;
+
+#videoid-mark-roi .spinner {
+	color: purple;
+	border-color: orange;
 }
 
 
 
 
 
-
-#videoid-mark-roi .spinner {
-	color: orange;
-	background-color: red;
-}*/
 
 
 
