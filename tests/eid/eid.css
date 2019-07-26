@@ -51,9 +51,9 @@ html,
 */
 
 
-#videoid-mark-roi .spinner {
-	width: 200%;
- 	height: 200%;
+#videoid-legend a.active {
+  color: orange;
+  border-color: purple;
 }
 
 
