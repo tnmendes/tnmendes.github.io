@@ -41,6 +41,12 @@ html,
 }*/
 
 
+#videoid-mark-roi.color {
+	color: orange;
+	background-color: red;
+}
+
+/*
 #videoid-mark-roi.face {
 	color: orange;
 	background-color: red;
@@ -53,15 +59,13 @@ html,
 	background-color: red;
 }
 
-#videoid-mark-roi.color {
-	color: orange;
-	background-color: red;
-}
+
 
 #videoid-mark-roi .spinner {
 	color: orange;
 	background-color: red;
-}
+}*/
+
 
 
 /*
