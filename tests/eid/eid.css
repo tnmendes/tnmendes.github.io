@@ -122,11 +122,6 @@ html,
 
 
 
-#videoid-detection {
-  background: brown;
-}
-
-
 .videoid-notification.show.error,
 .videoid-notification.show.warning {
   background: orange;
