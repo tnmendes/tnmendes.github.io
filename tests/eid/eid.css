@@ -79,6 +79,12 @@ html,
 */
 
 
+#videoid-notification.notification-text {
+	color: red;
+	background: blue;
+}
+
+
 #videoid-container #video-loading #video-instructions ul li span {
   border: 6px solid blue;
   color: purple;
@@ -156,42 +162,6 @@ html,
 
 
 
-
-@-moz-keyframes flash {
-  0% {
-    background-color: rgba(25, 25, 25, 0);
-  }
-  50% {
-    background-color: white;
-  }
-  100% {
-    background-color: rgba(25, 25, 25, 0);
-  }
-}
-
-@-o-keyframes flash {
-  0% {
-    background-color: rgba(25, 25, 25, 0);
-  }
-  50% {
-    background-color: white;
-  }
-  100% {
-    background-color: rgba(25, 25, 25, 0);
-  }
-}
-
-@keyframes flash {
-  0% {
-    background-color: rgba(25, 25, 25, 0);
-  }
-  50% {
-    background-color: white;
-  }
-  100% {
-    background-color: rgba(25, 25, 25, 0);
-  }
-}
 
 
 /*
