@@ -79,6 +79,19 @@ html,
 */
 
 
+
+.videoid-notification {
+	color: orange;
+	background: pink;
+}
+
+
+#videoid-notification {
+	color: orange;
+	background: pink;
+}
+
+
 .videoid-notification.notification-text span {
     color: pink;
 }
