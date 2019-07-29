@@ -117,37 +117,19 @@ html,
 
 
 #videoid-contextualhelp-a {
-  background: green;
+  background: pink;
 }
 
 
-/*
-#videoid-container #video-loading {
-  background: pink;
-}*/
 
-
-
-
-
-/*
 #videoid-detection {
   background: brown;
-}*/
-
-
-.videoid-notification.show.error,
-.videoid-notification.show.warning,
-.videoid-notification.show.error,
-.videoid-notification.show.warning {
-  background: teal;
 }
 
 
-
-
-#video-error {
-  background: lime;
+.videoid-notification.show.error,
+.videoid-notification.show.warning {
+  background: orange;
 }
 
 
