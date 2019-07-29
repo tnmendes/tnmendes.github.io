@@ -70,6 +70,55 @@ html,
 
 
 
+
+
+#videoid-legend.open #volume {
+  border-color: violet;
+}
+
+
+#videoid-container #video-loading p {
+  color: lavender;
+}
+
+
+#videoid-container #video-loading a {
+  color: cyan;
+}
+
+#videoid-container #video-loading #video-instructions {
+  color: springgreen;
+}
+
+#videoid-container #video-loading #video-instructions h3 {
+  color: olive;
+}
+
+#videoid-container #video-loading #video-instructions ul li {
+  color: yellow;
+}
+
+#videoid-container #video-loading #video-instructions ul li span {
+  color: orangered;
+}
+
+
+#videoid-container #video-loading #videoid-progress-bar #bar {
+  background: #B22222;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #B22222 0%, #FAEBD7 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #B22222 0%, #FAEBD7 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #B22222 0%, #FAEBD7 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#B22222', endColorstr='#FAEBD7', GradientType=1);
+  /* IE6-9 */
+}
+
+
+
+
 /*
 
 At first almost everything can be customized (backgrounds, fonts, sizes, colors, animations ... etc)
