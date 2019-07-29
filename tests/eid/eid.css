@@ -55,7 +55,18 @@ html,
 
 
 
+#videoid-legend-step {
+  position: absolute;
+  background: orange;
+}
 
+
+
+#videoid-legend a {
+  color: gold;
+  border: 3px solid green;
+  z-index: 1;
+}
 
 
 
