@@ -45,17 +45,13 @@ html,
 	border-width: 20px;
 }
 
-
-
-
 */
 
 
-#videoid-legend a.active {
-  color: orange;
-  border-color: purple;
+#videoid-container #video-loading #video-instructions ul li span {
+  border: 6px solid blue;
+  color: purple;
 }
-
 
 
 
