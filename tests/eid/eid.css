@@ -140,6 +140,63 @@ html,
 
 
 
+@keyframes resaltarRoi {
+  0% {
+    background-color: rgba(250,128,114, 0);
+  }
+  25% {
+    background-color: rgba(250,128,114, 0.3);
+  }
+  50% {
+    background-color: rgba(250,128,114, 0);
+  }
+  75% {
+    background-color: rgba(250,128,114, 0.3);
+  }
+  100% {
+    background-color: rgba(250,128,114, 0);
+  }
+}
+
+
+
+
+
+@-moz-keyframes flash {
+  0% {
+    background-color: rgba(25, 25, 25, 0);
+  }
+  50% {
+    background-color: white;
+  }
+  100% {
+    background-color: rgba(25, 25, 25, 0);
+  }
+}
+
+@-o-keyframes flash {
+  0% {
+    background-color: rgba(25, 25, 25, 0);
+  }
+  50% {
+    background-color: white;
+  }
+  100% {
+    background-color: rgba(25, 25, 25, 0);
+  }
+}
+
+@keyframes flash {
+  0% {
+    background-color: rgba(25, 25, 25, 0);
+  }
+  50% {
+    background-color: white;
+  }
+  100% {
+    background-color: rgba(25, 25, 25, 0);
+  }
+}
 
 
 /*
