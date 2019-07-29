@@ -45,32 +45,6 @@ html,
 	border-width: 20px;
 }
 
-*/
-
-
-#videoid-container #video-loading #video-instructions ul li span {
-  border: 6px solid blue;
-  color: purple;
-}
-
-
-
-#videoid-legend-step {
-  position: absolute;
-  background: orange;
-}
-
-
-
-#videoid-legend a {
-  color: gold;
-  border: 3px solid green;
-  z-index: 1;
-}
-
-
-
-
 
 #videoid-legend.open #volume {
   border-color: violet;
@@ -102,22 +76,104 @@ html,
   color: orangered;
 }
 
+*/
+
+
+#videoid-container #video-loading #video-instructions ul li span {
+  border: 6px solid blue;
+  color: purple;
+}
+
+
+
+#videoid-legend-step {
+  position: absolute;
+  background: orange;
+}
+
+
+
+#videoid-legend a {
+  color: gold;
+  border: 3px solid green;
+  z-index: 1;
+}
+
+
+
+
+
+
 
 #videoid-container #video-loading #videoid-progress-bar #bar {
-  background: #B22222;
+  background: blue;
   /* Old browsers */
-  background: -moz-linear-gradient(left, #B22222 0%, #FAEBD7 100%);
+  background: -moz-linear-gradient(left, blue 0%, green 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #B22222 0%, #FAEBD7 100%);
+  background: -webkit-linear-gradient(left, blue 0%, green 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, #B22222 0%, #FAEBD7 100%);
+  background: linear-gradient(to right, blue 0%, red 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#B22222', endColorstr='#FAEBD7', GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='blue', endColorstr='red', GradientType=1);
   /* IE6-9 */
 }
 
 
 
+
+
+
+#videoid-legend-step {
+  background: indigo;
+}
+
+
+
+
+#videoid-legend-step > div div.contain .controls {
+  background: blue;
+}
+
+
+#videoid-contextualhelp-a {
+  background: green;
+}
+
+
+#videoid-container #video-loading {
+  background: pink;
+}
+
+
+#videoid-container #video-loading #videoid-progress-bar {
+  background: gold;
+}
+
+
+
+#videoid-detection {
+  background: brown;
+}
+
+
+.videoid-notification.show.error,
+.videoid-notification.show.warning,
+.videoid-notification.show.error,
+.videoid-notification.show.warning {
+  background: teal;
+}
+
+
+
+
+#video-error {
+  background: lime;
+}
+
+
+.notification-without-container.show {
+  background: red;
+}
 
 /*
 
