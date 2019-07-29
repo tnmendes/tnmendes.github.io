@@ -86,31 +86,28 @@ html,
 
 
 
-.videoid-notification.notification-text span {
-    color: pink;
-}
 
-#videoid-notification.notification-text {
+.videoid-notification.notification-text {
 	color: red;
 	background: blue;
 }
 
 
-#videoid-container #video-loading #video-instructions ul li span {
+.videoid-container .ideo-loading .video-instructions ul li span {
   border: 6px solid blue;
   color: purple;
 }
 
 
 
-#videoid-legend-step {
+.videoid-legend-step {
   position: absolute;
   background: orange;
 }
 
 
 
-#videoid-legend a {
+.videoid-legend a {
   color: gold;
   border: 3px solid green;
   z-index: 1;
@@ -121,19 +118,19 @@ html,
 
 
 
-#videoid-legend-step {
+.videoid-legend-step {
   background: indigo;
 }
 
 
 
 
-#videoid-legend-step > div div.contain .controls {
+.videoid-legend-step > div div.contain .controls {
   background: blue;
 }
 
 
-#videoid-contextualhelp-a {
+.videoid-contextualhelp-a {
   background: pink;
 }
 
