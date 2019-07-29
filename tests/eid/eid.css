@@ -87,6 +87,15 @@ div.videoid-notification.notification-image h1 {
 }
 
 
+.div.videoid-notification.notification-image h1 {
+    color: orange;
+}
+
+#div.videoid-notification.notification-image h1 {
+    color: purple;
+}
+
+
 .videoid-notification {
 	color: blue;
 }
