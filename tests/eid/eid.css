@@ -79,6 +79,10 @@ html,
 */
 
 
+.videoid-notification.notification-text span {
+    color: pink;
+}
+
 #videoid-notification.notification-text {
 	color: red;
 	background: blue;
