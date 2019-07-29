@@ -80,6 +80,13 @@ html,
 
 
 
+
+
+div.videoid-notification.notification-image h1 {
+    color: red;
+}
+
+
 .videoid-notification {
 	color: blue;
 }
