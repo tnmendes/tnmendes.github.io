@@ -104,28 +104,6 @@ html,
 
 
 
-#videoid-container #video-loading #videoid-progress-bar #bar {
-  background: blue;
-  /* Old browsers */
-  background: -moz-linear-gradient(left, blue 0%, green 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, blue 0%, green 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, blue 0%, red 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='blue', endColorstr='red', GradientType=1);
-  /* IE6-9 */
-}
-
-
-#videoid-container #video-loading #videoid-progress-bar {
-  background: green;
-}
-
-
-
-
-
 #videoid-legend-step {
   background: indigo;
 }
@@ -173,10 +151,10 @@ html,
 }
 
 
-/*
+
 .notification-without-container.show {
   background: red;
-}*/
+}
 
 
 
