@@ -101,6 +101,15 @@ div.videoid-notification.notification-image h1 {
 }
 
 
+#video-error h2 {
+  color: blue;
+}
+
+#video-error a {
+	color: blue;
+	border: 2px solid blue;
+}
+
 
 
 .videoid-notification.notification-text {
