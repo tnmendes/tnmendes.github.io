@@ -22,6 +22,17 @@ html,
 	height: 24px;
 }
 
+
+
+.videoid-notification {
+    color: blue;
+    background-color: yellow;
+}
+
+
+
+
+
 /*
 * {
 	color: green;
@@ -76,7 +87,7 @@ html,
   color: orangered;
 }
 
-*/
+
 
 
 
@@ -98,16 +109,6 @@ div.videoid-notification.notification-image h1 {
 
 .videoid-notification {
 	color: blue;
-}
-
-
-#video-error h2 {
-  color: blue;
-}
-
-#video-error a {
-	color: blue;
-	border: 2px solid blue;
 }
 
 
@@ -190,7 +191,7 @@ div.videoid-notification.notification-image h1 {
   100% {
     background-color: rgba(250,128,114, 0);
   }
-}
+}*/
 
 
 
