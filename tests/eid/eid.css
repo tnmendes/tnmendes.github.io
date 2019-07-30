@@ -24,17 +24,17 @@ html,
 
 
 
-.videoid-notification {
-    color: blue;
-    background-color: yellow;
-}
-
 
 
 .videoid-notification.notification-text {
-  color: red;
   background: blue;
 }
+
+
+.videoid-notification.notification-text span {
+    color: red;
+}
+
 
 
 
