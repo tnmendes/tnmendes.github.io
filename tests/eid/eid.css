@@ -25,16 +25,24 @@ html,
 
 
 
-
-.videoid-notification.notification-text {
-  background: blue;
+div.videoid-notification.notification-image h1 {
+  color: red;
 }
 
 
-.videoid-notification.notification-text span {
-    color: red;
+.videoid-notification {
+    color: blue;
 }
 
+
+div.videoid-notification.notification-image {
+  background-color: yellow;
+}
+
+
+div.videoid-notification.notification-image img {
+  border-radius: 10%;
+}
 
 
 
