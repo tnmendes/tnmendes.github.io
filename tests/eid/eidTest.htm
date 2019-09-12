@@ -4,30 +4,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width,initial-scale=1,minimal-ui" name="viewport">
     <link rel="icon" href="images/favicon.png" type="image/png">
-
-    <script type="text/javascript">
-    	
-    	document.getElementById("clickMe").onclick = function () { 
-
-
-    		let videoId = EID.videoId('#video', {lang: "en"});
-    videoId.turnOn();
-    videoId.start({authorization: "nzkYSdqbd4Lj6gMpx_5rjg5w83Dtf03kH8_7o0Z4ty63sXIFRYidgvrpqIAxcmInE6W0vAqRcJOKtk-5-ecuepHJ6PRg6Ky17N3y8L9REHk=", idType: "147"});
-    videoId.on("completed", function () {
-        videoId.turnOff();
-        document.getElementById('session').value = sessionStorage.getItem('accessToken');
-        document.getElementById('redirect').submit();
-    });
-    videoId.on("failed", function (error) {
-        alert("VideoId Failed");
-    });
-    document.getElementById('close').onclick = function() {
-        videoId.turnOff();
-        location.href = 'https://labs.signicat.com/assure-test-server/assure/return?provider=eid&dossierId=493260d4-a056-4819-bb3c-e08508c7bbd8&processId=8ab976e7-5878-4294-b252-d0a5c015ec34&status=cancel';
-    };
-
-    	};
-    </script>
+    
 </head>
 
 <body>
@@ -49,6 +26,31 @@
 </div>
 
 <script src="https://etrust-sandbox.electronicid.eu/v2/js/videoid.js"></script>
+
+<script>
+function doFunction() {
+  
+  let videoId = EID.videoId('#video', {lang: "en"});
+    videoId.turnOn();
+    videoId.start({authorization: "nzkYSdqbd4Lj6gMpx_5rjg5w83Dtf03kH8_7o0Z4ty63sXIFRYidgvrpqIAxcmInE6W0vAqRcJOKtk-5-ecuepHJ6PRg6Ky17N3y8L9REHk=", idType: "147"});
+    videoId.on("completed", function () {
+        videoId.turnOff();
+        document.getElementById('session').value = sessionStorage.getItem('accessToken');
+        document.getElementById('redirect').submit();
+    });
+    videoId.on("failed", function (error) {
+        alert("VideoId Failed");
+    });
+    document.getElementById('close').onclick = function() {
+        videoId.turnOff();
+        location.href = 'https://labs.signicat.com/assure-test-server/assure/return?provider=eid&dossierId=493260d4-a056-4819-bb3c-e08508c7bbd8&processId=8ab976e7-5878-4294-b252-d0a5c015ec34&status=cancel';
+    };
+}
+</script>
+
+
+
+
 </body>
 
 </html>
