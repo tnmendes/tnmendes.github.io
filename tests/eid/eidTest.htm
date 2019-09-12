@@ -15,6 +15,7 @@
 
 
 <div id="startBtn"style="text-align:center;">
+	<input type="text" id="idDoc" value="147" /><br>
     <input type="text" id="auth" value="" /><br>
 	<input id="clickMe" type="button" value="clickme" onclick="doFunction();" />
 </div>
@@ -31,10 +32,11 @@
 <script>
 function doFunction() {
   
+  	var idTypeDoc=document.getElementById("idDoc").value; 
 	var authValue=document.getElementById("auth").value; 
   	let videoId = EID.videoId('#video', {lang: "en"});
     videoId.turnOn();
-    videoId.start({authorization: authValue, idType: "147"});
+    videoId.start({authorization: authValue, idType: idTypeDoc});
     videoId.on("completed", function () {
         videoId.turnOff();
         document.getElementById('session').value = sessionStorage.getItem('accessToken');
