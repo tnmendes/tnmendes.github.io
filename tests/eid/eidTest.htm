@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width,initial-scale=1,minimal-ui" name="viewport">
     <link rel="icon" href="images/favicon.png" type="image/png">
-    
+
 </head>
 
 <body>
@@ -15,7 +15,8 @@
 
 
 <div id="startBtn"style="text-align:center;">
-    <input id="clickMe" type="button" value="clickme" onclick="doFunction();" />
+    <input type="text" id="auth" value="" /><br>
+	<input id="clickMe" type="button" value="clickme" onclick="doFunction();" />
 </div>
 
 <div id="video"></div>
@@ -30,7 +31,8 @@
 <script>
 function doFunction() {
   
-  let videoId = EID.videoId('#video', {lang: "en"});
+	var authValue=document.getElementById("auth").value; 
+  	let videoId = EID.videoId('#video', {lang: "en"});
     videoId.turnOn();
     videoId.start({authorization: "nzkYSdqbd4Lj6gMpx_5rjg5w83Dtf03kH8_7o0Z4ty63sXIFRYidgvrpqIAxcmInE6W0vAqRcJOKtk-5-ecuepHJ6PRg6Ky17N3y8L9REHk=", idType: "147"});
     videoId.on("completed", function () {
