@@ -42,7 +42,7 @@ function doFunction() {
         alert("Completed!!! You Rock!");
     });
     videoId.on("failed", function (error) {
-        alert("VideoId Failed, error: "+error.error+" message: "+error.message);
+        alert("VideoId Failed, error: "+error["error"]+" message: "+error["message"]);
     });
     document.getElementById('close').onclick = function() {
         videoId.turnOff();
