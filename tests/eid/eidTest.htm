@@ -39,15 +39,14 @@ function doFunction() {
     videoId.start({authorization: authValue, idType: idTypeDoc});
     videoId.on("completed", function () {
         videoId.turnOff();
-        document.getElementById('session').value = sessionStorage.getItem('accessToken');
-        document.getElementById('redirect').submit();
+        alert("Completed!!! You Rock!");
     });
     videoId.on("failed", function (error) {
-        alert("VideoId Failed");
+        alert("VideoId Failed, error: "+error);
     });
     document.getElementById('close').onclick = function() {
         videoId.turnOff();
-        location.href = 'https://labs.signicat.com/assure-test-server/assure/return?provider=eid&dossierId=493260d4-a056-4819-bb3c-e08508c7bbd8&processId=8ab976e7-5878-4294-b252-d0a5c015ec34&status=cancel';
+        alert("You pressed the close button");
     };
 }
 </script>
