@@ -43,15 +43,29 @@
         <!-- Style Switch -->
         <!--<link rel="stylesheet" type="text/css" href="css/colors/green.css" title="green" media="screen" />-->
         <link rel="stylesheet" type="text/css" href="css/colors/blue.css" title="blue" media="screen" />
-        <!-- Style Switch -->
-        <!-- <link rel="stylesheet" type="text/css" href="css/colors/green.css" title="green" media="screen" />-->
-        <!-- <link rel="stylesheet" type="text/css" href="css/colors/pink.css" title="pink" media="screen" />-->
-        <!-- <link rel="stylesheet" type="text/css" href="css/colors/violet.css" title="violet" media="screen" />-->
-        <!-- <link rel="stylesheet" type="text/css" href="css/colors/gold.css" title="gold" media="screen" />-->
-        <!-- <link rel="stylesheet" type="text/css" href="css/colors/blue.css" title="blue" media="screen" />-->
-        <!-- <link rel="stylesheet" type="text/css" href="css/colors/red.css" title="red" media="screen" />-->
-        <!-- <link rel="stylesheet" type="text/css" href="css/colors/yellow.css" title="yellow" media="screen" />-->
-        <!-- <link rel="stylesheet" type="text/css" href="css/colors/navy.css" title="navy" media="screen" />-->
+
+
+
+		<script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-app.js"></script>
+		<!-- TODO: Add SDKs for Firebase products that you want to use
+		     https://firebase.google.com/docs/web/setup#available-libraries -->
+		<script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-analytics.js"></script>
+		<script>
+		  // Your web app's Firebase configuration
+		  var firebaseConfig = {
+		    apiKey: "AIzaSyBQkLbLV75sHNV8UkWn--2Ae28bywtACKI",
+		    authDomain: "sitewattapp.firebaseapp.com",
+		    databaseURL: "https://sitewattapp.firebaseio.com",
+		    projectId: "sitewattapp",
+		    storageBucket: "sitewattapp.appspot.com",
+		    messagingSenderId: "650382705153",
+		    appId: "1:650382705153:web:2ad9e7f46f3b0953b7b600",
+		    measurementId: "G-2F05Y6JCPQ"
+		  };
+		  // Initialize Firebase
+		  firebase.initializeApp(firebaseConfig);
+		  firebase.analytics();
+		</script>
         
     </head>
     <body  id="page-top" data-spy="scroll" data-target=".navbar-custom">
