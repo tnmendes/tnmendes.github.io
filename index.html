@@ -1,509 +1,593 @@
-<!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
-<head>
-    <title>CV Tiago Mendes</title>
-    <!-- Meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="CV Tiago Mendes">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <!-- Global CSS -->
-    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
-    <!-- Plugins CSS -->
-    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
-    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
-    
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head> 
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Watt complementary App to Kasa Smart">
+        <meta name="keywords" content="Watt, Kasa Smart, TP-Link, TPLink, HS110, HS100, iOS, Mobile">     
+        <meta name="author" content="Tiago Mendes">
+        <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <!-- Site title -->
+        <title>Watt | Complementary App to Kasa Smart</title>
 
-<body>
-    <div class="page">
-    <div class="wrapper">
-        <div class="sidebar-wrapper">
-            <div class="profile-container">
-                <img class="profile" src="assets/images/profile.png" alt="" />
-                <h1 class="name">Tiago Mendes</h1>
-                <h3 class="tagline">Software Engineer</h3>
-            </div><!--//profile-container-->
-            
-            <div class="contact-container container-block">
-                <h2 class="container-block-title">About &amp; Contact</h2>
-                <ul class="list-unstyled contact-list">
-                    <li title="Full name"><i class="fa fa-user" aria-hidden="true"></i>Tiago Fernando Nunes Mendes</li>
-                    <li title="Address"><i class="fa fa-map-marker" aria-hidden="true"></i>Porto, Portugal</li>
-                    <li title="Birth date" class="birthdate" ><i class="fa fa-birthday-cake" aria-hidden="true"></i>25 March 1987</li>
-                    <li title="Nationality"><i class="fa fa-globe" aria-hidden="true"></i>Portuguese</li>
-                    <li title="e-mail" class="email">
-                        <i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto: tnmendes@gmail.com">tnmendes@gmail.com</a>
-                    </li>
-                    <li title="Mobile" class="mobile">
-                        <i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+351 919 813 884">+351 919 813 884</a>
-                    </li>
-                    <li title="Skype">
-                        <i class="fa fa-skype" aria-hidden="true"></i><a href="skype:tfnmendes?add">tfnmendes</a>
-                    </li>
-                </ul>
-            </div><!--//contact-container-->
-            
-            <div class="languages-container container-block">
-                <h2 class="container-block-title">Languages</h2>
-                <ul class="list-unstyled interests-list">
-                    <li>Portuguese <span class="lang-desc">(Native)</span></li>
-                    <li>English <span class="lang-desc">(Full professional proficiency)</span></li>
-                    <li>Spanish <span class="lang-desc">(Professional working proficiency)</span></li>
-                </ul>
-            </div><!--//interests-->
-            
-            <div class="interests-container container-block">
-                <h2 class="container-block-title">Personal Skills</h2>
-                <ul class="list-unstyled interests-list">
-                    <li>Responsibiliy</li>
-                    <li>Initiative</li>
-                    <li>Team</li>
-                    <li>Ethics</li>
-                    <li>Critical thinking</li>
-                </ul>
-            </div><!--//interests-->
-            
-        </div><!--//sidebar-wrapper-->
+        <!-- Favicons AND TOUCH ICONS   -->
+        <link rel="icon" href="images/favicon.ico">
+        <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+        <!-- Font-awesome and Custom Google Web Font -->
+        <link href="font-awesome/css/all.css" rel="stylesheet">
+        <link href="css/et-line.css" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Roboto:100,300,400' rel='stylesheet' type='text/css'>
+
+        <!-- CSS --> 
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/animate.min.css" rel="stylesheet">
+        <link href="css/allinone_carousel.css" rel="stylesheet" type="text/css">
+        <!-- social share -->
+        <link rel="stylesheet" type="text/css" href="css/jssocials.css" />
+        <link rel="stylesheet" type="text/css" href="css/jssocials-theme-plain.css" />
+        <!-- theme style -->
+        <link href="css/style.css" rel="stylesheet">
+
+        <!--[if lt IE 9]>
+                                <script src="js/html5shiv.js"></script>
+                                <script src="js/respond.min.js"></script>
+        <![endif]-->
+        <script src="js/modernizr.custom.min.js"></script>
+
+        <!-- Style Switch -->
+        <!--<link rel="stylesheet" type="text/css" href="css/colors/green.css" title="green" media="screen" />-->
+        <link rel="stylesheet" type="text/css" href="css/colors/blue.css" title="blue" media="screen" />
+        <!-- Style Switch -->
+        <!-- <link rel="stylesheet" type="text/css" href="css/colors/green.css" title="green" media="screen" />-->
+        <!-- <link rel="stylesheet" type="text/css" href="css/colors/pink.css" title="pink" media="screen" />-->
+        <!-- <link rel="stylesheet" type="text/css" href="css/colors/violet.css" title="violet" media="screen" />-->
+        <!-- <link rel="stylesheet" type="text/css" href="css/colors/gold.css" title="gold" media="screen" />-->
+        <!-- <link rel="stylesheet" type="text/css" href="css/colors/blue.css" title="blue" media="screen" />-->
+        <!-- <link rel="stylesheet" type="text/css" href="css/colors/red.css" title="red" media="screen" />-->
+        <!-- <link rel="stylesheet" type="text/css" href="css/colors/yellow.css" title="yellow" media="screen" />-->
+        <!-- <link rel="stylesheet" type="text/css" href="css/colors/navy.css" title="navy" media="screen" />-->
         
-        <div class="main-wrapper">
-            
-            <section class="section experiences-section">
-                <h2 class="section-title"><i class="fa fa-briefcase" aria-hidden="true"></i>Work Experiences</h2>
-                
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Backend and iOS Developer / IT Manager</h3>
-                            <div class="time">Set 15 - Nov 16</div>
-                        </div><!--//upper-row-->
-                        <div class="company">Zarco, Portugal</div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>Was given full responsibility for technical management and strategy on the creation of the On-Demand solution (Android, iOS, Dashboard, RESTful API and business model). Established a software development life cycle to assure the quality of all features. Held team meetings, prioritized tasks and kept tracking progress. Was also able to provide "mentorship," as it were, if the developers on my projects got stuck. Introduced and implemented agile methodology Kanban, and implemented corporate Wiki for content management and collaboration.</p>  
-                        <p>Simultaneously, I was part of the iOS App (Swift) developers, RESTful API lean developer and the model business (PHP based MVC framework). The installation and maintenance of servers were also in my duties (hosting provider Amazon AWS EC2).</p>
-                        <p>Key technologies: PHP, Swift, RESTful API, AWS S3, Facebook SDK, GCM Cloud, APNS, Stripe, Alamofire, Multi-currency, Multi-time zone.</p>
-                    </div><!--//details-->
-                </div><!--//item-->
-                
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">IT Advisor</h3>
-                            <div class="time">Fev 16 - Jun 16</div>
-                        </div><!--//upper-row-->
-                        <div class="company">Nomadmovement, Portugal</div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>As advisor, was responsible for refactoring architectural guidance, recommendations, mentoring and training where necessary. Organize all the necessary meetings with the team to share with them objectives and plan project sprints. Supported development and software quality assurance to ensure product stability for end users.</p>  
-                        
-                    </div><!--//details-->
-                </div><!--//item-->
-                
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">iOS Mobile Developer in Mobile Summer Academy</h3>
-                            <div class="time">Jun 15 - Aug 15</div>
-                        </div><!--//upper-row-->
-                        <div class="company">Porto Tech Center, Portugal</div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>
-                            This Mobile Summer Academy is an intensive 10-week program for IT Students to learn how to create iOS mobile apps. During the Academy i had the opportunity to build a native app from scratch, integrated in an experienced Agile team following Scrum methods.
-                        </p>  
-                    </div><!--//details-->
-                </div><!--//item-->
-
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Web Developer</h3>
-                            <div class="time">Mar 15 -  Jul 15</div>
-                        </div><!--//upper-row-->
-                        <div class="company">NomadMovement, Portugal</div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>
-                            The purpose will be to change the maps system allowing several place markers to reflect the full journey experience, with a special attention to the user experience. </br>
-                            The technologies used for this goal were Google Maps API, Jquery, PHP, Ajax.
-                        </p>  
-                    </div><!--//details-->
-                </div><!--//item-->
-                
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Programmer</h3>
-                            <div class="time">Jan 13 - Sep 13</div>
-                        </div><!--//upper-row-->
-                        <div class="company">Portuguese Armed Forces, Portugal</div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>
-                            Was responsible for the creation of a software system to control all IT equipment both in the aspect as logistics as the IT helpdesk for the Military Facilities in the Area of Porto.</br>
-                            Besides that also helped IT staff in the daily problems.
-                        </p>
-                    </div><!--//details-->
-                </div><!--//item-->
-
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Head of Team Telecommunications and Cryptographic</h3>
-                            <div class="time">Apr 09 - Jan 13</div>
-                        </div><!--//upper-row-->
-                        <div class="company">Portuguese Armed Forces, Portugal</div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>
-                            Was responsible for a team with the purpose of forwarding telephone calls and receiving messages in classified channels.
-                        </p>            
-                    </div><!--//details-->
-                </div><!--//item-->
-                
-            </section><!--//section-->
-        </div><!--//main-body-->
-    </div><!--//wrapper-->
-    <div class="page-number">
-        Pag. 1 / 2
-    </div>
-    </div><!--//page-->
-
-
-    <br class="no-print">
-    <br class="no-print">
-    <br class="no-print">
-
-
-    <div class="page">
-    <div class="wrapper">
-        <div class="sidebar-wrapper sidebar-wrapper-page2">
-            <div class="profile-container">
-                <h1 class="name">Tiago Mendes</h1>
-                <h3 class="tagline">Software Engineer</h3>
-            </div><!--//profile-container-->
-
-            <div class="profile-container profile-container-linkedin">
-                <h3 class="linkedin-info">For Further Information Linkedin</h1>
-                <img class="linkedin-qr-code" src="assets/images/qr_code.png" alt="QR Code for linkedin" title="QR Code for linkedin" />
-                </br>
-                <a href="https://linkedin.com/in/tnmendes" class="linkedin-taglink" target="_blank">linkedin.com/in/tnmendes</a>
-            </div><!--//profile-container-->
-            
-            <div class="interests-container container-block">
-                <h2 class="container-block-title">Other &amp; ACtivities</h2>
-                <ul class="list-unstyled interests-list">
-                    <li>Security clearance for NATO Secreat (Valid up to May 2019)</li>
-                    <li>iOS Certificate (in Swift)</li>
-                    <li>CCNA Routing and Switching: Introduction to networks certified by Cisco</li>
-                    <li>Driving License</li>
-                    <li>Several years participating in tournaments of Programming</li>
-                </ul>
-            </div><!--//interests-->
-
-            <div class="interests-container container-block">
-                <h2 class="container-block-title">Interests</h2>
-                <ul class="list-unstyled interests-list">
-                    <li>Travel, Diving, Going Out, New Technologies, Cooking</li>
-                </ul>
-            </div><!--//interests-->
-            
-        </div><!--//sidebar-wrapper-->
-        
-        <div class="main-wrapper main-wrapper-page2">
-            
-            <section class="section experiences-section">
-                <h2 class="section-title"><i class="fa fa-briefcase" aria-hidden="true"></i>Work Experiences (continued)</h2>
-
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Telecommunications</h3>
-                            <div class="time">Sep 09 - Mar 10</div>
-                        </div><!--//upper-row-->
-                        <div class="company">NATO, Kosovo</div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>Working on Crypto Center, also working on maintenance of radio communications in the headquarters and in the field.</br>
-                        Interacted and worked with multinational military forces from diverse countries.
-                    </div><!--//details-->
-                </div><!--//item-->
-
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Telecommunications</h3>
-                            <div class="time">Apr 09 - Aug 09</div>
-                        </div><!--//upper-row-->
-                        <div class="company">Portuguese Armed Forces, Portugal</div>
-                    </div><!--//meta-->
-                </div><!--//item-->
-
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Administrative in Office of Human Resources</h3>
-                            <div class="time">Sep 07 - Mar 09</div>
-                        </div><!--//upper-row-->
-                        <div class="company">Portuguese Armed Forces, Portugal</div>
-                    </div><!--//meta-->
-                </div><!--//item-->
-                
-            </section><!--//section-->
-            
-            <section class="section experiences-section">
-                <h2 class="section-title"><i class="fa fa-graduation-cap" aria-hidden="true"></i>Education</h2>
-                
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">ERASMUS Program: Computer Science</h3>
-                        </div><!--//upper-row-->
-                        <div class="company">Politechnika Łódzka, Poland</div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>
-                            Development of a project with a team of 8 people with multiple cultures and languages. Learned to establish connection quickly with individuals in an unfamiliar environment.<br>
-                        </p>                        
-                    </div><!--//details-->
-                </div><!--//item-->
-
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Bachelor: Computer Science</h3>
-                        </div><!--//upper-row-->
-                        <div class="company">Instituto Superior de Engenharia do Porto, Portugal</div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>
-                            Key courses: Software Engineering, Application Engineering, Information Structures, Computer Networks, Real-time Programming, Projects.
-                        </p>
-                    </div><!--//details-->
-                </div><!--//item-->
-                
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Military Academy</h3>
-                        </div><!--//upper-row-->
-                        <div class="company">Regimento de Artilharia n.º 5, Portugal</div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>
-                            Transferable skills from the military:</br>
-                            Work well individually or as part of the team, perform well under pressure, highly disciplined, flexible hours, schedules and work locations.
-                        </p>                        
-                    </div><!--//details-->
-                </div><!--//item-->
-
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">High School: Information Techology</h3>
-                        </div><!--//upper-row-->
-                        <div class="company">Escola Dr. Manuel Gomes Almeida, Portugal</div>
-                    </div><!--//meta-->
-                </div><!--//item-->
-                
-            </section><!--//section-->
-
-        </div><!--//main-body-->
-
-
-
-
-
-<div class="section bottombar-wrapper">
-
-          <h2 class="section-title"><i class="fa fa-rocket" aria-hidden="true"></i>Skills &amp; Proficiency</h2>
-          <div>
-
-            <div class="column-left">
-                <section class="skills-section section">
-                    <h3 class="skill-title">Programming</h2>
-                    <div class="skillset">        
-                        <div class="item">
-                            <h3 class="level-title">Java</h3>
-                            <div class="level-bar">
-                                <div class="level-bar-inner" data-level="80%">
-                                </div>                                      
-                            </div><!--//level-bar-->                                 
-                        </div><!--//item-->
-                        
-                        <div class="item">
-                            <h3 class="level-title">Swift</h3>
-                            <div class="level-bar">
-                                <div class="level-bar-inner" data-level="80%">
-                                </div>                                      
-                            </div><!--//level-bar-->                                 
-                        </div><!--//item-->
-                        
-                        <div class="item">
-                            <h3 class="level-title">C++</h3>
-                            <div class="level-bar">
-                                <div class="level-bar-inner" data-level="45%">
-                                </div>                                      
-                            </div><!--//level-bar-->                                 
-                        </div><!--//item-->
-                        
-                        <div class="item">
-                            <h3 class="level-title">MySQL/Oracle</h3>
-                            <div class="level-bar">
-                                <div class="level-bar-inner" data-level="85%">
-                                </div>                                      
-                            </div><!--//level-bar-->                                 
-                        </div><!--//item-->
-                        
-                        <div class="item">
-                            <h3 class="level-title">JDBC</h3>
-                            <div class="level-bar">
-                                <div class="level-bar-inner" data-level="60%">
-                                </div>                                      
-                            </div><!--//level-bar-->                                 
-                        </div><!--//item-->
-                        
-                    </div>  
-                </section><!--//skills-section-->
+    </head>
+    <body  id="page-top" data-spy="scroll" data-target=".navbar-custom">
+        <!-- preloader -->
+        <div class="preloader">
+            <div class="status">
+                <img src="images/logo.png" alt="loading..."/>
             </div>
-
-            <div class="column-center">
-                <section class="skills-section section">
-                    <h3 class="skill-title">Web-based Tech</h3>
-                    <div class="skillset">        
-                        <div class="item">
-                            <h3 class="level-title">PHP</h3>
-                            <div class="level-bar">
-                                <div class="level-bar-inner" data-level="94%">
-                                </div>                                      
-                            </div><!--//level-bar-->                                 
-                        </div><!--//item-->
-                        
-                        <div class="item">
-                            <h3 class="level-title">HTML/CSS</h3>
-                            <div class="level-bar">
-                                <div class="level-bar-inner" data-level="80%">
-                                </div>                                      
-                            </div><!--//level-bar-->                                 
-                        </div><!--//item-->
-                        
-                        <div class="item">
-                            <h3 class="level-title">JS/Jquery</h3>
-                            <div class="level-bar">
-                                <div class="level-bar-inner" data-level="70%">
-                                </div>                                      
-                            </div><!--//level-bar-->                                 
-                        </div><!--//item-->
-                        
-                        <div class="item">
-                            <h3 class="level-title">JSON</h3>
-                            <div class="level-bar">
-                                <div class="level-bar-inner" data-level="90%">
-                                </div>                                      
-                            </div><!--//level-bar-->                                 
-                        </div><!--//item-->
-                        
-                        <div class="item">
-                            <h3 class="level-title">Google Maps API</h3>
-                            <div class="level-bar">
-                                <div class="level-bar-inner" data-level="80%">
-                                </div>                                      
-                            </div><!--//level-bar-->                                 
-                        </div><!--//item-->
-                        
-                    </div>  
-                </section><!--//skills-section-->
-            </div>
-
-            <div class="column-right">
-
-                <section class="skills-section section">
-                    <h3 class="skill-title">Others</h3>
-                    <div class="skillset">        
-                        <div class="item">
-                            <h3 class="level-title">Adobe Firework</h3>
-                            <div class="level-bar">
-                                <div class="level-bar-inner" data-level="85%">
-                                </div>                                      
-                            </div><!--//level-bar-->                                 
-                        </div><!--//item-->
-                        
-                        <div class="item">
-                            <h3 class="level-title">Visual Paradigm</h3>
-                            <div class="level-bar">
-                                <div class="level-bar-inner" data-level="75%">
-                                </div>                                      
-                            </div><!--//level-bar-->                                 
-                        </div><!--//item-->
-                        
-                        <div class="item">
-                            <h3 class="level-title">UML</h3>
-                            <div class="level-bar">
-                                <div class="level-bar-inner" data-level="63%">
-                                </div>                                      
-                            </div><!--//level-bar-->                                 
-                        </div><!--//item-->
-                        
-                        <div class="item">
-                            <h3 class="level-title">Hardware</h3>
-                            <div class="level-bar">
-                                <div class="level-bar-inner" data-level="60%">
-                                </div>                                      
-                            </div><!--//level-bar-->                                 
-                        </div><!--//item-->
-
-                        <div class="item">
-                            <h3 class="level-title">Git</h3>
-                            <div class="level-bar">
-                                <div class="level-bar-inner" data-level="90%" style="width=40px;">
-                                </div>                                      
-                            </div><!--//level-bar-->                                 
-                        </div><!--//item-->
-                        
-                    </div>  
-                </section><!--//skills-section-->
-
-            </div>
-          </div>
         </div>
 
-    </div><!--//wrapper-->
 
-    <div class="page-number">
-            Pag. 2 / 2
-    </div>
-    </div><!--//page-->
+        <!-- Header -->
+        <header>
+            <nav class="navbar navbar-custom navbar-top navbar-fixed-top sticky-navigation" >
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <!-- LOGO -->
+                        <a class="navbar-brand nav-logo page-scroll" href="#page-top">
+                            <img src="images/logo.png" alt="Watt Logo"/>
+                        </a>
+                    </div>
+                    <!-- NAVIGATION LINKS -->
+                    <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a class="page-scroll" href="#page-top">Home</a></li>
+                            <li><a class="page-scroll" href="#screenshots">Screenshots</a></li>
+                            <li><a class="page-scroll" href="#overview">Overview</a></li>
+                            <li><a class="page-scroll" href="#app-brief2">Roadmap</a></li>
+                            <li><a class="page-scroll" href="#download">Download</a></li>
+                            <li><a class="page-scroll" href="#contact">Issues</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+
+                </div><!-- /.container -->
+            </nav>
+        </header><!-- Header end -->
+
+        <section id="intro" >
+            <div class="container">
+                <div class="row relative">
+                    <div class="phones">
+                        <img src="images/left-mob-front.png" alt="wava" class="left-mob-front img-responsive"/>
+                        <img src="images/left-mob-back.png" alt="wava" class="left-mob-back img-responsive wow fadeInUp" data-wow-duration="1s" data-wow-offset="50" data-wow-delay="0s"/>
+                    </div>
+                    <div class="col-md-6 col-md-offset-6">
+                        <h1><b>Watt</b> a complementary app to <span class="bold"> Kasa Smart </span>(TP-Link).</h1>
+
+                        <p class="space40">
+                            See the live consumption and know the energy cost with daily charts. And many more unique features!!!
+                        </p>
+                        <div class="downloads space10">
+                            <a href="https://itunes.apple.com/us/app/watt-hs110/id1465004830"><img src="images/downloads/apple.png" alt="apple" /></a>
+                        </div><!-- downloads end -->
+
+                    </div><!-- col-md-6 end -->
+                </div><!-- row end -->
+            </div><!-- container end -->
+        </section><!-- intro end -->
 
 
-    <footer class="footer no-print">
-        <div class="text-center">
-            <small class="text">Here you can download the <a href="CV Tiago Mendes.pdf">CV Tiago Mendes.pdf</a></small>
-        </div>
-    </footer><!--//footer-->
- 
-    <!-- Javascript -->          
-    <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
-    <!-- custom js -->
-    <script type="text/javascript" src="assets/js/main.js"></script>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-81887909-1', 'auto');
-      ga('send', 'pageview');
-    </script>          
-</body>
-</html> 
 
+
+        <section id="screenshots" class="text-center">
+            <div class="screenshot-image">
+                <div class="overlay">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <h2 class="space40">
+                                    The Best way to controll your <span class="bold"> Kasa Smart </span> devices
+                                </h2>
+                                <div class="downloadNumber space10">
+                                     <span class="number">+ 20,000</span> Downloads
+                                </div>
+                            </div><!-- col-md-12 end -->
+                        </div><!-- row end -->
+                    </div><!-- container end -->
+                </div><!-- overlay end -->
+            </div><!-- screenshot-image end -->
+
+
+            <div class="screenshotSlider relative">
+                <div class="gradient"></div>
+
+                <div class="containerd">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="slider-3d">   
+
+                                <div id="allinone_carousel_sweet">
+                                    <div class="myloader"></div>
+                                    <!-- CONTENT -->
+                                    <ul class="allinone_carousel_list">
+
+                                        <li data-title="Space Screen" data-bottom-thumb="images/sweet/thumbs/1.png"><img src="images/sweet/1.png" alt="" /></li>
+                                        <li data-title="Chart Electric Consumption Screen" data-bottom-thumb="images/sweet/thumbs/2.png"><img src="images/sweet/2.png" alt="" /></li>
+                                        <li data-title="Chart Runtime Screen" data-bottom-thumb="images/sweet/thumbs/3.png"><img src="images/sweet/3.png" alt="" /></li>
+                                        <li data-title="Menu Context Devices" data-bottom-thumb="images/sweet/thumbs/4.png"><img src="images/sweet/4.png" alt="" /></li>
+                                        <li data-title="Equipment Detail" data-bottom-thumb="images/sweet/thumbs/5.png"><img src="images/sweet/5.png" alt="" /></li>
+                                        <li data-title="Define the Cost of Energy" data-bottom-thumb="images/sweet/thumbs/6.png"><img src="images/sweet/6.png" alt="" /></li>
+                                        <li data-title="Space Menu Context" data-bottom-thumb="images/sweet/thumbs/7.png"><img src="images/sweet/7.png" alt="" /></li>
+
+                                    </ul>    
+
+                                </div>
+                            </div><!-- slider-3d end -->
+                        </div><!-- col-md-12 end -->
+                    </div><!-- row end -->
+                </div><!-- container end -->
+
+            </div><!-- screenshotSlider end -->
+
+        </section><!-- screenshots end -->
+
+
+
+
+
+   <!-- features -->
+        <section id="features" class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="titleSection">
+                            <h2>Watt offers a wide range of <span class="bold">Unique Features</span></h2>
+                            <p>
+                                This list is always growing 
+                            </p>
+                            <div class="coloredLine"></div>
+                        </div><!-- titleSection end -->
+                    </div><!-- col-md-12 end -->
+                </div><!-- row end -->
+
+                <div class="row">
+                    <div class="col-md-4 leftFeatures">
+                        <div class="text-right space100">
+                            <i class="icon-heart bigIcon"></i>
+                            <h4 class="bold">Night Mode</h4>
+                            <p>
+                                Turn off all the LEDs of your Smart Device. The lights are turned off but the system continues to function normally so you can have a restful night's sleep.
+                            </p>
+                        </div><!-- text-right space100 end -->
+
+                        <div class="text-right">
+                            <i class="icon-bike bigIcon"></i>
+                            <h4 class="bold">Daily and Monthly Chart</h4>
+                            <p>
+                                We generate graphs bar for easy reading of consumption, costs and how many hours the device was turned on.
+                            </p>
+                        </div><!-- text-right end -->
+
+                    </div><!-- col-md-4 leftFeatures end -->
+
+                    <div class="col-md-4">
+                        <img src="images/features-mob.png" class="img-responsive wow bounceIn" alt="features"  data-wow-duration="1s" data-wow-offset="50" data-wow-delay="0s" />
+                    </div><!-- col-md-4 end -->
+
+                    <div class="col-md-4 rightFeatures">
+                        <div class="text-left space100">
+                            <i class="icon-hotairballoon bigIcon"></i>
+                            <h4 class="bold">Erase Statistics</h4>
+                            <p>
+                                The ability to reset the stats for when a different appliance is plugged in and I want to start fresh. Without you having to restart your smart device.
+                            </p>
+                        </div><!-- text-left space40 end -->
+
+                        <div class="text-left">
+                            <i class="icon-camera bigIcon"></i>
+                            <h4 class="bold">Siri (under development)</h4>
+                            <p>
+                                Use Siri to turn on or Off your devices or know the current status of the device. This will be a reality in one of the next versions of the app.
+                            </p>
+                        </div><!-- text-left end -->
+                    </div><!-- col-md-4 rightFeatures end -->
+
+                </div><!-- row end -->
+            </div><!-- container end -->
+        </section>  <!-- features end -->
+
+
+
+
+
+
+
+
+
+        <!-- overview -->
+        <section id="overview" class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="titleSection">
+                            <h2><b>Overview</b></h2>
+                            <p>
+                                Watt it was developed with the HS110 in mind but at the moment it also supports other models but with some limitations because those devices don't have energy monitoring capabilities.
+                            </p>
+                            <div class="coloredLine"></div>
+
+                        </div><!-- titleSection end -->
+                    </div><!-- col-md-12 end -->
+                </div><!-- row end -->
+
+                <div class="row space50" align="center">
+                    <div class="col-md-12">
+
+
+                        <table class="table-features">
+                            <thead class="table-thead">
+                                <tr>
+                                    <th><b>Featured</b></th>
+                                    <th align="center"><b>HS100, HS103, HS105, </br> HS200, HS210, HS220</b></th>
+                                    <th align="center"><b>HS110</b></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Turn On/Off</td>
+                                    <td align="center">x</td>
+                                    <td align="center">x</td>
+                                </tr>
+                                <tr>
+                                    <td>Get overview each device that are active
+                                        <br> in the home screen</td>
+                                    <td align="center">x</td>
+                                    <td align="center">x</td>
+                                </tr>
+                                <tr>
+                                    <td>Energy consumption Chart
+                                        <br> Daily &amp; monthly</td>
+                                    <td align="center"></td>
+                                    <td align="center">x</td>
+                                </tr>
+                                <tr>
+                                    <td>Daily and monthly cost of the device</td>
+                                    <td align="center"></td>
+                                    <td align="center">x</td>
+                                </tr>
+                                <tr>
+                                    <td>Runtime Chart
+                                        <br> Daily &amp; monthly</td>
+                                    <td align="center">x</td>
+                                    <td align="center">x</td>
+                                </tr>
+                                <tr>
+                                    <td>Cumulative energy usage
+                                        <br>form all devices</td>
+                                    <td align="center"></td>
+                                    <td align="center">x</td>
+                                </tr>
+                                <tr>
+                                    <td>Night Mode (turn off the LEDs)</td>
+                                    <td align="center">x</td>
+                                    <td align="center">x</td>
+                                </tr>
+                                <tr>
+                                    <td>Erase Runtime statistics</td>
+                                    <td align="center">x</td>
+                                    <td align="center">x</td>
+                                </tr>
+                                <tr>
+                                    <td>Erase Consumption statistics</td>
+                                    <td align="center"></td>
+                                    <td align="center">x</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+
+                    </div><!-- col-md-12 end --> 
+                </div><!-- row end -->   
+
+
+                <!--<div class="row">
+                    <div class="col-md-4 mg-sm-100" >
+                        <i class="icon-browser bigIcon"></i>
+                        <h4 class="bold">Full Responsive</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nisi enim, vulputate at justo tristique
+                        </p>
+                    </div>--><!-- col-md-4 end -->
+
+                    <!--<div class="col-md-4  mg-sm-100" >
+                        <i class="icon-happy bigIcon"></i>
+                        <h4 class="bold">Well Documented</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nisi enim, vulputate at justo tristique
+                        </p>
+                    </div>--><!-- col-md-4 end -->
+
+                    <!--<div class="col-md-4" >
+                        <i class="icon-tools bigIcon"></i>
+                        <h4 class="bold">Clean Design</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nisi enim, vulputate at justo tristique
+                        </p>
+                    </div>>--><!-- col-md-4 end -->
+
+                </div><!-- row end -->
+            </div><!-- container end -->
+        </section>  <!-- overview end -->
+
+     
+
+
+
+
+
+        
+
+        <section id="app-brief2" class="section" >
+            <div class="container">
+                <div class="row relative">
+                    <div class="phones">
+                        <img src="images/right-mob-front.png" alt="wava" class="right-mob-front img-responsive"/>
+                        <img src="images/right-mob-back.png" alt="wava" class="right-mob-back img-responsive wow fadeInUp" data-wow-duration="1s" data-wow-offset="50" data-wow-delay="0s"/>
+                    </div>
+                    <div class="col-md-6">
+                        <h2><span class="bold"> Roadmap</span></h2>
+
+                        <p class="space40">
+                            This is strategic and long-range planning for this app. For many of the features that are planned beyond the mobile application we will need to develop a server-side.
+                        </p>
+                        <ul class="clearlist rightList">
+                            <li>
+                                <i class="fa fa-check"></i>
+                                <span>  Show cumulative energy usage form all devices.</span>
+                            </li>
+
+                            <li>
+                                <i class="fa fa-check"></i>
+                                <span>  Show energy consumption by last 30 days, month.</span>
+                            </li>
+
+                            <li>
+                                <i class="fa fa-check"></i>
+                                <span> Show daily cost metrics</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-check"></i>
+                                <span>   Night Mode (Option to turn off the led light).</span>
+                            </li>
+
+                            <li>
+                                <i class="fa fa-check"></i>
+                                <span>  Show more info about each device (Like real time consumption, Voltage, wireless signal).</span>
+                            </li>
+
+                            <li>
+                                <i class="fa fa-check"></i>
+                                <span> The ability to reset the stats for when a different appliance/device is plugged in and I want to start fresh.</span>
+                            </li>
+                            <li>
+                                <i class="fa fa-check"></i>
+                                <span>  Create concept "Room/Spaces" which will aggregate multiple devices.</span>
+                            </li>
+
+                            <li>
+                                <i class="far fa-square"></i>
+                                <span>  Add support to TP-Link HS300.</span>
+                            </li>
+
+                            <li>
+                                <i class="far fa-square"></i>
+                                <span>  Export the data to Excel (csv)</span>
+                            </li>
+                            <li>
+                                <i class="far fa-square"></i>
+                                <span>  Show chart gathering all devices and the total cost.</span>
+                            </li>
+                            <li>
+                                <i class="far fa-square"></i>
+                                <span>  Record the energy consumption hour by hour.</span>
+                            </li> 
+                            <li>
+                                <i class="far fa-square"></i>
+                                <span>  Show energy consuption by day, bill.</span>
+                            </li>  
+                            <li>
+                                <i class="far fa-square"></i>
+                                <span>  The option to define peak and off peak times and electricity prices.</span>
+                            </li>  
+                            <li>
+                                <i class="far fa-square"></i>
+                                <span>  Find a way to give commands to Siri to turn on/off device (maybe using Siri shortcut)</span>
+                            </li>  
+                            <li>
+                                <i class="far fa-square"></i>
+                                <span>  Force reboot, turn Off device then On after 30 seconds turn on again (Helpful for devices like wifi routers connected to the smart plug)</span>
+                            </li>  
+                            <li>
+                                <i class="far fa-square"></i>
+                                <span>  Make smart action (like if consuption is lower then specific value turn off(stand-by), or using GPS and when arrive home turn on the light, even use weather forcast to make action, difine amount time before sunset/sunrise action)</span>
+                            </li>  
+                            <li>
+                                <i class="far fa-square"></i>
+                                <span>  Make a personalized schedule that will tell you how much money you will save by turning off your device x hours</span>
+                            </li>  
+                            <li>
+                                <i class="far fa-square"></i>
+                                <span>  Set Goals to save energy</span>
+                            </li>  
+                            <li>
+                                <i class="far fa-square"></i>
+                                <span>  Implement Haptic Touch</span>
+                            </li>  
+                            <li>
+                                <i class="far fa-square"></i>
+                                <span>  Add Artificial Intelligence (IA) to detect and send you push notification when some consumption is not right like: leave the refrigerator door open, washer is done.</span>
+                            </li>  
+                            <li>
+                                <i class="far fa-square"></i>
+                                <span>  If you have multiple devices connected to single HS110 use artificial intelligence to detect which devices are turned on and off and how much each one of them are spending.</span>
+                            </li>  
+                            <li>
+                                <i class="far fa-square"></i>
+                                <span>  Make android version</span>
+                            </li>      
+
+                        </ul>
+
+
+                    </div><!-- col-md-6 end -->
+                </div><!-- row end -->
+            </div><!-- container end -->
+        </section><!-- #app-brief2 section end -->
+
+
+        <section id="download" class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">       
+                        <img class="img-responsive" src="images/download-mob.png" alt="download" />
+
+                    </div><!-- col-md-12 end -->
+
+                    <div class="col-md-7">
+                        <h2 class="downloadtxt"> App is free developed with ♡ for TP-Link community, download app
+                            <span class="bigWord"> today! </span> </h2>
+                        <div class="downloads">
+                            <a href="https://itunes.apple.com/us/app/watt-hs110/id1465004830"><img src="images/downloads/apple.png" alt="apple" /></a>
+                        </div><!-- downloads end -->
+
+                        <hr>
+
+                    </div><!-- col-md-12 end -->
+                </div><!-- row end -->
+            </div><!-- container end -->
+        </section>   <!-- subscribe end -->
+
+
+        <!-- contact -->
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="titleSection">
+                            <h2>Having issues with app? Want new features?</br><span class="bold">Let me help you!</span></h2>
+                            <div class="coloredLine"></div>
+                            <p>
+                                We are using the Github website to manage issues and so that people can see the problems that other users have.
+                            </p>
+                        </div><!-- titleSection end -->
+                    </div><!-- col-md-12 end -->
+                </div><!-- row end -->
+
+                <div class="row">
+
+                    <div class="btn-new">
+                            <a href="https://github.com/tnmendes/watt/issues">View Issues</a>
+                    </div>
+                </div><!-- row end -->
+            </div><!-- container end -->
+        </section><!-- contact end -->
+
+
+
+
+        <!-- share -->
+        <!--
+        <section id="share" class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>  You don't have device <br>
+                            <span class="bold"> TP-Link HS110 </span> ?</h2>
+                        <p>
+                            You can order using these links</br>
+                            (Using these links you are contributing to the project)
+                        </p>
+                        <div>
+                            <ul  class="clearlist socialList">
+                                <li id="amazon-square"><a href="#"><p><i class="fab fa-amazon fa-2x"></i></p><span class="hidden-xs">HS110 (US)</span></a></li>
+                                <li id="amazon-square"><a href="#"><p><i class="fab fa-amazon fa-2x"></i></p><span class="hidden-xs">HS110 (EU)</span></a></li>
+                                <li id="amazon-square"><a href="#"><p><i class="fab fa-amazon fa-2x"></i></p><span class="hidden-xs">HS110 (AU)</span></a></li>
+                                <li id="amazon-square"><a href="#"><p><i class="fab fa-amazon fa-2x"></i></p><span class="hidden-xs">HS110 (JP)</span></a></li>
+                                <li id="amazon-square"><a href="#"><p><i class="fab fa-amazon fa-2x"></i></p><span class="hidden-xs">HS110 (FR)</span></a></li>
+                            </ul>
+                        </div>-->
+                    <!--</div>--><!-- col-md-12 end -->
+                <!--</div>--><!-- row end -->
+            <!--</div>--><!-- container end -->
+        <!--</section>-->  <!-- share end -->
+        
+
+
+
+        <footer>
+            <div class="container">
+                <div class="col-md-12">
+                    <a href="#page-top" class="page-scroll"><img src="images/footer-logo.png" alt="WAVA"/></a>
+                    <div class="space50"></div>
+                    <hr>
+                    <p>Watt for Smart Devices</p>
+                </div><!-- col-md-12 end -->
+            </div><!-- container end -->
+        </footer>
+
+        <!-- javascript Placed at the end of the document so the pages load faster -->
+        <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.easing.min.js"></script>
+        <script src="js/jquery.appear.js"></script>
+        <script src="js/jquery.inview.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+        <script src="js/jquery.ui.touch-punch.min.js" type="text/javascript"></script>
+        <script src="js/allinone_carousel.js" type="text/javascript"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/pace.min.js" type="text/javascript"></script>
+        <script src="js/jquery.placeholder.min.js" type="text/javascript"></script>
+        <script src="js/jquery.ajaxchimp.min.js"></script>
+        <script src="js/jssocials.min.js"></script>
+        <script src="js/script.js"></script>
+
+    </body>
+</html>
