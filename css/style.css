@@ -861,6 +861,8 @@ table.table-features{
     margin-left: auto !important;
     margin-right: auto !important;
     background-color: #f9f9f9;
+    overflow-x: auto;
+    display: block;
 }
 
 
