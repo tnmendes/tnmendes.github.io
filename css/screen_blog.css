@@ -1,6 +1,6 @@
 @import url(//fonts.googleapis.com/css?family=Roboto:300,300italic,400,400italic,500);
 @import url(reset.css);
-
+/*
 body, html {
   padding:0;
   margin:0;
@@ -12,12 +12,12 @@ body, html {
 strong {
   font-weight:500;
   color:#727272;
-}
+}*/
 
 em {
   font-style:italic;
 }
-
+/*
 a {
   text-decoration:none;
   color:#42B6F3;
@@ -27,7 +27,7 @@ a {
 a:hover, a:focus {
   color:#222;
 }
-
+*/
 h1, h2, h3, h4, h5, h6 {
   font-weight:500;
   letter-spacing:-1px;
@@ -71,11 +71,6 @@ body {
   max-width:600px;
   margin:0 auto;
   padding:0 20px;
-}
-
-header, footer, section, article {
-  display:block;
-  width:100%;
 }
 
 header {
@@ -127,21 +122,34 @@ blockquote {
   float:left;
   margin:0 20px 20px -120px;
 }
-
+/*
 footer {
   font-weight:300;
   color:#a5a5a5;
   font-size:13px;
   margin:50px auto 0;
   padding-top:0;
+}*/
+
+
+article {
+  display:block;
+  width:100%;
 }
 
 article {
-  margin:50px 50px 50px 50px;
   padding: 40px;
-  max-width: 650px;
+  max-width: 800px;
+}
+/*
+article {
+  margin:24px 0;
 }
 
+article + article {
+  padding-top:30px;
+}
+*/
 .excerpt {
   font-size:28px;
   line-height:1.3;
@@ -241,17 +249,7 @@ article {
     font-weight:300;
   }
 
-  article {
-    margin:24px 0;
-  }
 
-  article + article {
-    padding-top:30px;
-  }
-
-  footer {
-    font-size:11px;
-  }
 
   .pagination .button {
     box-sizing:border-box;
