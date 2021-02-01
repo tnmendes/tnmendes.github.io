@@ -323,7 +323,7 @@
                                 <tr>
                                     <td>Energy consumption Chart
                                         <br> Daily &amp; monthly</td>
-                                    <td align="center"></td>
+                                    <td align="center">Just Switch <sup style="font-size: 85%;">*2</sup></td>
                                     <td align="center"><i class="fa fa-check"></i></td>
                                     <td align="center"><i class="fa fa-check"></i></td>
                                     <td align="center"></td>
@@ -331,7 +331,7 @@
                                 </tr>
                                 <tr>
                                     <td>Daily and a monthly cost of the device</td>
-                                    <td align="center"></td>
+                                    <td align="center">Just Switch <sup style="font-size: 85%;">*2</sup></td>
                                     <td align="center"><i class="fa fa-check"></i></td>
                                     <td align="center"><i class="fa fa-check"></i></td>
                                     <td align="center"></td>
@@ -349,7 +349,7 @@
                                 <tr>
                                     <td>Cumulative energy usage
                                         <br>form all devices</td>
-                                    <td align="center"></td>
+                                    <td align="center">Just Switch <sup style="font-size: 85%;">*2</sup></td>
                                     <td align="center"><i class="fa fa-check"></i></td>
                                     <td align="center"><i class="fa fa-check"></i></td>
                                     <td align="center"></td>
@@ -357,7 +357,7 @@
                                 </tr>
                                 <tr>
                                     <td>Night Mode (turn off the LEDs)</td>
-                                    <td align="center"><i class="fa fa-check"></i> <sup style="font-size: 100%;">*1</sup></td>
+                                    <td align="center"><i class="fa fa-check"></i> <sup style="font-size: 85%;">*1</sup></td>
                                     <td align="center"><i class="fa fa-check"></i></td>
                                     <td align="center"></td>
                                     <td align="center"><i class="fa fa-check"></i></td>
@@ -415,7 +415,10 @@
                         </table>
 
                         <li>
-                                <span><sup style="font-size: 100%;">*1</sup>  Due to hardware limitations <u>HS200 <b>v1</b></u> and <u>HS220 <b>v2</b></u> the night mode does not work. It's working well for HS200 v2 and v3 and HS220 v1 and v3.</span>
+                                <span><sup style="font-size: 100%;">*1</sup>  Due to hardware  or firmware the <u>HS200 <b>v1</b></u> and <u>HS220 <b>v2</b></u> the night mode does not work. It's working well for HS200 v2 and v3 and HS220 v1 and v3.</span>
+                        </li>
+                        <li>
+                                <span><sup style="font-size: 100%;">*2</sup>  For Kasa Smart Switch for HS200, HS210, HS220 we are calculating consumption based on the number of hours the device it's running + the default value set by the user. <a href="blog-kasa-smart-switches-energy-consumption.html" class="page-scroll">Read more</a></span>
                         </li>
 
                     </div><!-- col-md-12 end --> 
@@ -523,10 +526,15 @@
                                 <i class="fa fa-check"></i>
                                 <span>  Implement Haptic Touch</span>
                             </li>
-			    <li>
+			                 <li>
                                 <i class="fa fa-check"></i>
                                 <span>  Add support to Tapo product line (P100, P105, L510, L530).</span>
                             </li>
+                            <li>
+                                <i class="fa fa-check"></i>
+                                <span>  Calculate the energy cost for smart switches (HS200, HS210 and HS220) based on Runtime + default/set value consumed energy.
+                                </span>
+                            </li> 
 				
                             <li>
                                 <i class="far fa-square"></i>
@@ -552,11 +560,6 @@
                                 <i class="far fa-square"></i>
                                 <span>  Send a weekly email with consumption reports and charts.</span>
                             </li>
-                            <li>
-                                <i class="far fa-square"></i>
-                                <span>  Calculate the energy cost for smart switches (HS200, HS210 and HS220) based on Runtime + default/set value consumed energy.
-                                </span>
-                            </li> 
                             <li>
                                 <i class="far fa-square"></i>
                                 <span>  Force reboot, turn Off device then On after 30 seconds turn on again (Helpful for devices like wifi routers connected to the smart plug)</span>
