@@ -24,7 +24,11 @@ html,
   line-height: 1.25em;
   padding: 0.625em 2em;
   text-align: center;
+  --eid-a-default: aqua;
+  --eid-a-hover: blue;
+  --eid-a-active: orange;
 }
+
 
 #video .eid-detection-roi {
   border: 15px solid;
@@ -63,6 +67,9 @@ html,
 
 
 /*
+.eid-button-primary
+
+
 * {
 	color: green;
 }*/
