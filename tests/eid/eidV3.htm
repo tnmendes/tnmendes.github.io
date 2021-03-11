@@ -34,7 +34,6 @@ function doFunction() {
 	var authValue=document.getElementById("auth").value; 
   	let videoId = EID.videoId('#video', {lang: "en"});
 
-
     videoId.start({authorization: authValue, idType: idTypeDoc});
 
     videoId.on("completed",
@@ -50,14 +49,10 @@ function doFunction() {
         alert("You pressed the close button");
     };
 
-    if (!document.getElementById) document.write('<link rel="stylesheet" type="text/css" href="eidV3.css">');
 }
 </script>
 
-
 </body>
 
-
 </html>
-<link rel="stylesheet" type="text/css" href="eidV3.css">
 

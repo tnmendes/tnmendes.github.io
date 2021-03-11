@@ -5,14 +5,6 @@ html,
 	padding: 0;
 }
 
-
-:root {
-  --eid-a-default: aqua;
-  --eid-a-hover: blue;
-  --eid-a-active: orange;
-}
-
-
 #video {
   height: 90vh;
   width: 90vh;
