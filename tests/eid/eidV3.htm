@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1,minimal-ui" name="viewport">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+
+</head>
+
+<body>
+
+<div id="close">
+    <img src="close.png" alt="Close">
+</div>
+
+
+<div id="startBtn"style="text-align:center;">
+	Document ID: <input type="text" id="idDoc" value="147" /> (147->PRT passport, 148->PRT idCard)<br>
+    Auth: <input type="text" id="auth" value="" /><br>
+	<input id="clickMe" type="button" value="Start EID" onclick="doFunction();" />
+</div>
+
+<div id="video"></div>
+<div>
+    <form id="redirect" action="redirect" method="post">
+        <input type="hidden" id="session" name="session"/>
+    </form>
+</div>
+
+<script src="https://etrust-sandbox.electronicid.eu/js/videoid-3.x/videoid.js"></script>
+<script>
+function doFunction() {
+  
+  	var idTypeDoc=document.getElementById("idDoc").value; 
+	var authValue=document.getElementById("auth").value; 
+  	let videoId = EID.videoId('#video', {lang: "en"});
+
+
+
+    videoId.start({authorization: authValue, idType: idTypeDoc});
+
+
+    videoId.on("completed", function () {
+        videoId.turnOff();
+        alert("Completed!!! You Rock!");
+    });
+    videoId.on("failed", function (error) {
+        alert("VideoId Failed, error: "+error["error"]+" message: "+error["message"]);
+    });
+    //VideoId.​on​(​"phaseStarting"​, function ​(phase) {
+​    //    console​.​log​(phase.​name ​+ ​" - Starting"​)​; ​//Add your functionality here ​phase.continue()​;
+    //});
+    document.getElementById('close').onclick = function() {
+        videoId.turnOff();
+        alert("You pressed the close button");
+    };
+}
+</script>
+
+
+
+
+</body>
+
+</html>
+<link rel="stylesheet" type="text/css" href="eid.css">
