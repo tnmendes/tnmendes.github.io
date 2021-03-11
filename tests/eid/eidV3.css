@@ -26,6 +26,21 @@ html,
   text-align: center;
 }
 
+#video .eid-detection-roi {
+  border: 15px solid;
+  border-color: red;
+}
+
+
+#video .eid-notification-text .eid-p {
+  color: #001ffd;
+}
+
+#video .eid-detection-roi-document {
+  box-shadow
+}
+
+
 
 #close {
 	position: absolute;
