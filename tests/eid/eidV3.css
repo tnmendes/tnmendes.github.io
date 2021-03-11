@@ -7,6 +7,7 @@ html,
 
 #video {
   height: 90vh;
+  width: 90vh;
   --eid-a-default: red;
 }
 
@@ -22,6 +23,7 @@ html,
 	width: 24px;
 	height: 24px;
 }
+
 
 
 
