@@ -36,19 +36,18 @@ function doFunction() {
   	let videoId = EID.videoId('#video', {lang: "en"});
 
 
-
     videoId.start({authorization: authValue, idType: idTypeDoc});
 
-
-    videoId.on("completed", function () {
-        videoId.turnOff();
-        alert("Completed!!! You Rock!");
+    videoId.on("completed",
+        function (video) {
+            alert("Completed!!! You Rock!" + video.id);
     });
+
     videoId.on("failed", function (error) {
         alert("VideoId Failed, error: "+error["error"]+" message: "+error["message"]);
     });
+
     document.getElementById('close').onclick = function() {
-        videoId.turnOff();
         alert("You pressed the close button");
     };
 }
