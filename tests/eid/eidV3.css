@@ -9,7 +9,23 @@ html,
   height: 90vh;
   width: 90vh;
   --eid-a-default: red;
+  --eid-a-hover: blue;
+  --eid-a-active: orange;
 }
+
+#video .eid-button {
+  border-radius: 30%;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-style: normal;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 1.25em;
+  padding: 0.625em 2em;
+  text-align: center;
+}
+
 
 #close {
 	position: absolute;
