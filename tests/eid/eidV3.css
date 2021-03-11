@@ -1,6 +1,13 @@
+body,
+html,
 #video {
-	height: 100%;
-  width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#video {
+	height: 80%;
+  width: 80%;
   --eid-a-default: red;
 }
 
