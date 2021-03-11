@@ -47,9 +47,6 @@ function doFunction() {
     videoId.on("failed", function (error) {
         alert("VideoId Failed, error: "+error["error"]+" message: "+error["message"]);
     });
-    //VideoId.​on​(​"phaseStarting"​, function ​(phase) {
-​    //    console​.​log​(phase.​name ​+ ​" - Starting"​)​; ​//Add your functionality here ​phase.continue()​;
-    //});
     document.getElementById('close').onclick = function() {
         videoId.turnOff();
         alert("You pressed the close button");
