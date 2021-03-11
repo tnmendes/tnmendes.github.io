@@ -19,6 +19,9 @@ html,
   --eid-a-default: aqua;
   --eid-a-hover: blue;
   --eid-a-active: orange;
+  --eid-button-default: aqua;
+  --eid-button-hover: blue;
+  --eid-button-active: orange;
 }
 
 #video .eid-button {
@@ -32,28 +35,17 @@ html,
   line-height: 1.25em;
   padding: 0.625em 2em;
   text-align: center;
-  --eid-a-default: aqua;
-  --eid-a-hover: blue;
-  --eid-a-active: orange;
-  color: 
 }
-
-#video .eid-button-primary {
-  background-color: lime;
-  border: 2px solid orange !important;
-;
-}
-
 
 
 #video .eid-detection-roi {
   border: 15px solid;
-  border-color: red;
+  border-color: red !important;
 }
 
 
 #video .eid-notification-text .eid-p {
-  color: #001ffd;
+  color: yellow;
 }
 
 #video .eid-detection-roi-document {
@@ -83,8 +75,10 @@ html,
 
 
 /*
-.eid-button-primary
-
+#video .eid-button-primary {
+  background-color: lime;
+  border: 2px solid orange !important;
+}
 
 * {
 	color: green;
