@@ -35,7 +35,15 @@ html,
   --eid-a-default: aqua;
   --eid-a-hover: blue;
   --eid-a-active: orange;
+  color: 
 }
+
+#video .eid-button-primary {
+  background-color: lime;
+  border: 2px solid orange !important;
+;
+}
+
 
 
 #video .eid-detection-roi {
