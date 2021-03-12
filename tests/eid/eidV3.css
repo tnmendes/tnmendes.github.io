@@ -8,9 +8,9 @@ html,
 #video {
   height: 90vh;
   width: 90vh;
-  --eid-neutral-colort: orange;
-  --eid-light-background-rgb: 150, 250, 50;
-  --eid-light-background-opacity: 0.8;
+  --eid-neutral-colort: pink;
+  --eid-warning-color: maroon;
+  --success-color: red;
 }
 
 
@@ -42,13 +42,6 @@ html,
 NAO SEI O QUE FAZ
   --eid-neutral-colort: orange;
 
-
-
-
-
-  --eid-a-default: red;
-  --eid-a-hover: blue;
-  --eid-a-active: orange;
 
 
 
