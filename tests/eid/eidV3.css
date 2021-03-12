@@ -8,9 +8,7 @@ html,
 #video {
   height: 90vh;
   width: 90vh;
-  --eid-a-default: red;
-  --eid-a-hover: blue;
-  --eid-a-active: orange;
+  --eid-neutral-colort: orange;
 }
 
 
