@@ -9,12 +9,14 @@ html,
   height: 90vh;
   width: 90vh;
   --eid-neutral-colort: pink;
-  --eid-warning-color: maroon;
   --success-color: red;
+  --eid-warning-color: maroon;
 }
 
-
-
+#video .eid-detection-roi {
+  border: 15px solid;
+  border-color: red !important;
+}
 
 #close {
 	position: absolute;
@@ -34,13 +36,13 @@ html,
 
 
 
-
-
 /*
 
 
 NAO SEI O QUE FAZ
   --eid-neutral-colort: orange;
+    --success-color: red;
+
 
 
 
