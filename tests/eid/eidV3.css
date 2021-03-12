@@ -8,16 +8,46 @@ html,
 #video {
   height: 90vh;
   width: 90vh;
-  --eid-a-default: aqua;
-  --eid-a-hover: blue;
-  --eid-a-active: orange;
-  --eid-button-default: aqua;
-  --eid-button-hover: blue;
+  --eid-button-default: blue;
+  --eid-button-hover: aqua;
   --eid-button-active: orange;
 }
 
+
+
+
+#close {
+	position: absolute;
+	z-index: 999;
+	top: 30px;
+	right: 30px;
+	cursor: pointer;
+}
+
+#close>img {
+	width: 24px;
+	height: 24px;
+}
+
+
+
+
+
+
+
+
+/*
+
+
+
+  --eid-a-default: red;
+  --eid-a-hover: blue;
+  --eid-a-active: orange;
+
+
+
 #video .eid-button {
-  border-radius: 30%;
+  border-radius: 17%;
   box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
@@ -46,139 +76,6 @@ html,
 
 
 
-#close {
-	position: absolute;
-	z-index: 999;
-	top: 30px;
-	right: 30px;
-	cursor: pointer;
-}
-
-#close>img {
-	width: 24px;
-	height: 24px;
-}
-
-
-
-
-
-
-
-
-/*
-#video .eid-button-primary {
-  background-color: lime;
-  border: 2px solid orange !important;
-}
-
-* {
-	color: green;
-}*/
-
-/*NOT WORKING */
-/*
-
-
-
-div.videoid-notification.notification-image h1 {
-    color: red;
-}
-
-
-.div.videoid-notification.notification-image h1 {
-    color: orange;
-}
-
-#div.videoid-notification.notification-image h1 {
-    color: purple;
-}
-
-
-.videoid-notification {
-	color: blue;
-}
-
-
-
-.videoid-notification.notification-text {
-	color: red;
-	background: blue;
-}
-
-
-.videoid-container .ideo-loading .video-instructions ul li span {
-  border: 6px solid blue;
-  color: purple;
-}
-
-
-
-.videoid-legend-step {
-  position: absolute;
-  background: orange;
-}
-
-
-
-.videoid-legend a {
-  color: gold;
-  border: 3px solid green;
-  z-index: 1;
-}
-
-
-
-
-
-
-.videoid-legend-step {
-  background: indigo;
-}
-
-
-
-
-.videoid-legend-step > div div.contain .controls {
-  background: blue;
-}
-
-
-.videoid-contextualhelp-a {
-  background: pink;
-}
-
-
-
-.videoid-notification.show.error,
-.videoid-notification.show.warning {
-  background: orange;
-}
-
-
-
-.notification-without-container.show {
-  background: red;
-}
-
-
-
-@keyframes resaltarRoi {
-  0% {
-    background-color: rgba(250,128,114, 0);
-  }
-  25% {
-    background-color: rgba(250,128,114, 0.3);
-  }
-  50% {
-    background-color: rgba(250,128,114, 0);
-  }
-  75% {
-    background-color: rgba(250,128,114, 0.3);
-  }
-  100% {
-    background-color: rgba(250,128,114, 0);
-  }
-}*/
+*/
 
 
