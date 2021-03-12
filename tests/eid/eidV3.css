@@ -8,15 +8,11 @@ html,
 #video {
   height: 90vh;
   width: 90vh;
-  --eid-neutral-colort: pink;
+  --eid-neutral-colort: yellow;
   --success-color: red;
-  --eid-warning-color: maroon;
 }
 
-#video .eid-detection-roi {
-  border: 15px solid;
-  border-color: red !important;
-}
+
 
 #close {
 	position: absolute;
