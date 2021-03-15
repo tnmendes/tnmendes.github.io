@@ -12,12 +12,17 @@ html,
   --success-color: red;
 }
 
-#video .eid-detection-roi​ {
-​   position​: absolute;
-​   border​: ​14px​ solid;
-​   border-radius​: ​25%;
-​   border-color​: ​red; 
-   box-sizing​: border-box;
+#video .eid-button {
+  border-radius: 25%;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-style: normal;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 1.25em;
+  padding: 0.625em 2em;
+  text-align: center;
 }
 
 #close {
