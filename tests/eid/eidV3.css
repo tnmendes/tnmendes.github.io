@@ -12,7 +12,13 @@ html,
   --success-color: red;
 }
 
-
+#video .eid-detection-roi​ {
+​   position​: absolute;
+​   border​: ​4px​ solid;
+​   border-radius​: ​16px​;
+​   border-color​: ​red; 
+   box-sizing​: border-box;
+}
 
 #close {
 	position: absolute;
