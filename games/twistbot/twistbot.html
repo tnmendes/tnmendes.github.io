@@ -7,10 +7,13 @@
         <meta id="myViewport" name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
         <script>
             window.onload = function () {
-                scale = screen.width/1300
-                var mvp = document.getElementById('myViewport');
-                mvp.setAttribute('content','width=device-width, user-scalable=no, minimum-scale='+scale+', maximum-scale='+scale+', shrink-to-fit=no');
+                setTimeout(loadFrame, 2000);
             }
+
+            function loadFrame() {
+                scale = document.body.scrollWidth*150/1920;
+                document.body.style.zoom=scale+"%";
+            };
         </script>
         <meta name="mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-capable" content="yes">
