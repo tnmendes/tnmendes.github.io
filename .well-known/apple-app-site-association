@@ -1,13 +1,21 @@
 {
-  "applinks": {
-    "apps": [],
-    "details": [
-      {
-        "appID": “ZQM8QT87RT.com.github.tnmendes.mapGame",
-        "paths": [
-          "*"
-        ]
-      }
-    ]
-  }
+	"webcredentials": {
+		"apps": ["ZQM8QT87RT.com.watt-app"]
+	},
+	"applinks": {
+		"apps": [],
+		"details": [{
+			"appID": "ZQM8QT87RT.com.watt-app",
+			"paths": [
+				"/*/passwordReset*",
+				"/passwordReset*",
+				"/*/joinTrip*",
+				"/joinTrip*",
+				"/*/pro",
+				"/pro",
+				"/*/redeem*",
+				"/redeem*"
+			]
+		}]
+	}
 }
