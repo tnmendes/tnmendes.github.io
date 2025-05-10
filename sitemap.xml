@@ -57,4 +57,11 @@
   <lastmod>2024-11-26T13:17:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
+
+<!-- Humidity app -->
+<url>
+  <loc>https://watt-app.com/humidity</loc>
+  <lastmod>2025-05-11T00:06:40+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
 </urlset>
